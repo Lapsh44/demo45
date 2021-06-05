@@ -14,7 +14,9 @@ public class Programm {
     @Scheduled(fixedDelay = 1000)
     public void start() {
         count++;
-        System.out.println("OK");
+
+       // System.out.println("OK");
+
     }
 
     public int test() {
