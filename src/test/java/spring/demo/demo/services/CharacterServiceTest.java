@@ -36,6 +36,7 @@ class CharacterServiceTest {
         characterService.save(character);
 
         List<Character> all = characterRepository.findAll();
-        log.debug("all {} ", all);
+        //log.debug("all {} ", all);
+        System.out.println(all);
     }
 }

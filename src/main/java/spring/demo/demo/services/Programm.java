@@ -11,7 +11,9 @@ import java.sql.SQLOutput;
 public class Programm {
     int count = 0;
 
-    @Scheduled(fixedDelay = 1000)
+  //  @Scheduled(fixedDelay = 1000)
+  //  @Scheduled(cron = "0 0 15")
+
     public void start() {
         count++;
 

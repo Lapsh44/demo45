@@ -18,12 +18,12 @@ public class UsersService {
 
 
 
-    public void save(Users user) {
-        usersRepository.save(user);
-        Users test = usersRepository.findById("*").get();
-        //String userId = test.getUserId();
-       // Paps paps = papsRepository.findById(userId).get();
-
-    }
+//    public void save(Users user) {
+//        usersRepository.save(user);
+//        Users test = usersRepository.findById("*").get();
+//        //String userId = test.getUserId();
+//       // Paps paps = papsRepository.findById(userId).get();
+//
+//    }
 
 }

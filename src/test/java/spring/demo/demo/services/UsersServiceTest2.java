@@ -26,7 +26,7 @@ class UsersServiceTest2 {
         Users users = new Users();
         users.setUserName("test1");
         users.setUserId("121111");
-        usersService.save(users);
+//        usersService.save(users);
 
 
         List<Users> all = usersRepository.findAll();
